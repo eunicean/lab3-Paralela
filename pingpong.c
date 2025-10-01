@@ -3,8 +3,8 @@
 
 int main(int argc, char** argv) {
     int rank, size;
-    const int N = 1000000;  // ahora es variable constante
-    int msg = 42;
+    const int N = 10000000;
+    int msg = 11100000;
     double start, end;
 
     MPI_Init(&argc, &argv);
